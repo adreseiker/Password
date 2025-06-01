@@ -148,6 +148,7 @@ generateBtn.addEventListener("click", () => {
     const hasUpper = uppercaseEl.checked;
     const hasNumber = numberEl.checked;
     const hasSymbol = symbolEl.checked;
+    console.log({ length, hasLower, hasUpper, hasNumber, hasSymbol });
     generatedPassword = true;
     resultEl.innerText = generatePassword(length, hasLower, hasUpper, hasNumber, hasSymbol);
     copyInfo.style.transform = "translateY(0%)";
