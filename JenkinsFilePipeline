@@ -8,8 +8,8 @@ pipeline {
 
     environment {
         FIREBASE_DEPLOY_TOKEN = credentials('firebase-token')
-        STAGING_PROJECT = 'password-generator-staging'
-        PROD_PROJECT = 'password-generator-production'
+        STAGING_PROJECT = 'testingpasswordgeneratorappepr'
+        PROD_PROJECT = 'testingpasswordgeneratorappepr'
     }
 
     stages {
